@@ -1,0 +1,244 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+<meta charset="UTF-8">\
+<title>RIICHW - Take Action Now</title>\
+\
+<style>\
+\
+body\{\
+font-family: Arial, sans-serif;\
+margin:0;\
+background:white;\
+color:#222;\
+text-align:center;\
+\}\
+\
+.hero\{\
+padding:60px 20px;\
+background:#f4f8fb;\
+\}\
+\
+.hero img\{\
+max-width:280px;\
+margin-bottom:20px;\
+\}\
+\
+.hero h1\{\
+font-size:36px;\
+margin-bottom:10px;\
+\}\
+\
+.hero h2\{\
+color:#0c5f78;\
+font-weight:normal;\
+\}\
+\
+.cta\{\
+background:#0c5f78;\
+color:white;\
+padding:16px 32px;\
+border-radius:8px;\
+text-decoration:none;\
+font-size:18px;\
+display:inline-block;\
+margin-top:20px;\
+\}\
+\
+.urgency\{\
+background:#1f3c66;\
+color:white;\
+padding:15px;\
+font-weight:bold;\
+\}\
+\
+.grid\{\
+display:grid;\
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));\
+gap:20px;\
+padding:40px;\
+max-width:900px;\
+margin:auto;\
+\}\
+\
+.grid div\{\
+background:#f4f6f9;\
+padding:20px;\
+border-radius:6px;\
+\}\
+\
+.action\{\
+padding:40px;\
+background:#f9fbff;\
+\}\
+\
+textarea\{\
+width:80%;\
+max-width:700px;\
+height:220px;\
+margin:20px auto;\
+display:block;\
+padding:15px;\
+font-size:14px;\
+\}\
+\
+button\{\
+background:#0c5f78;\
+color:white;\
+border:none;\
+padding:14px 24px;\
+border-radius:6px;\
+cursor:pointer;\
+margin:10px;\
+\}\
+\
+.share\{\
+padding:40px;\
+background:#eef2f6;\
+\}\
+\
+.power\{\
+font-size:22px;\
+padding:40px;\
+font-weight:bold;\
+\}\
+\
+.footer\{\
+background:#1f3c66;\
+color:white;\
+padding:30px;\
+font-size:14px;\
+\}\
+\
+</style>\
+</head>\
+\
+<body>\
+\
+<div class="hero">\
+\
+<img src="logo.png">\
+\
+<h1>Rhode Island \'96 Take Action Now</h1>\
+\
+<h2>Help Secure $50 MILLION for Community Health Workers</h2>\
+\
+<a class="cta"\
+href="mailto:support@riichw.com?subject=Support CHW Funding">\
+Email Your Senator Now\
+</a>\
+\
+</div>\
+\
+<div class="urgency">\
+\
+Deadline: April 16 \'97 Congress authorized the program, but it is still $0 funded.\
+\
+</div>\
+\
+<div class="grid">\
+\
+<div>Improve health outcomes</div>\
+<div>Reduce costs</div>\
+<div>Support families</div>\
+<div>Address social determinants</div>\
+<div>Reduce provider burden</div>\
+<div>Strengthen communities</div>\
+\
+</div>\
+\
+<div class="action">\
+\
+<h3>Send This Message</h3>\
+\
+<textarea id="emailText">\
+\
+Subject: Dear Colleague Letter for CHW Funding\
+\
+Hello,\
+\
+I am a Rhode Island constituent and Community Health Worker, or supporter.\
+\
+I am asking the Senator to support $50 million in funding for Community Health Workers in the FY 2027 federal budget.\
+\
+This funding has already been authorized but has never been appropriated.\
+\
+CHWs improve health outcomes, reduce costs, and strengthen underserved communities.\
+\
+Please support this critical investment.\
+\
+Sincerely,\
+[Your Name]\
+[Your City]\
+\
+</textarea>\
+\
+<button onclick="copyText()">Copy Message</button>\
+\
+</div>\
+\
+<div class="power">\
+\
+We are essential. Now we need to be funded like it.\
+\
+</div>\
+\
+<div class="share">\
+\
+<h3>Share This Campaign</h3>\
+\
+<button onclick="shareText()">Share</button>\
+\
+<button onclick="copyLink()">Copy Link</button>\
+\
+</div>\
+\
+<div class="footer">\
+\
+RIICHW \'96 Rhode Island Independent Community Health Works  \
+Supporting Equity and Access to Healthcare  \
+\
+Koren Carbuccia  \
+CEO / Founder  \
+ceo@riichw.com | 401-296-7091\
+\
+</div>\
+\
+<script>\
+\
+function copyText()\{\
+var text = document.getElementById("emailText");\
+text.select();\
+document.execCommand("copy");\
+alert("Message copied!");\
+\}\
+\
+function shareText()\{\
+if (navigator.share) \{\
+navigator.share(\{\
+title: 'Support Community Health Workers',\
+text: 'Help secure $50M for Community Health Workers in Rhode Island',\
+url: window.location.href\
+\});\
+\} else \{\
+alert("Sharing not supported on this device.");\
+\}\
+\}\
+\
+function copyLink()\{\
+navigator.clipboard.writeText(window.location.href);\
+alert("Link copied!");\
+\}\
+\
+</script>\
+\
+</body>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx6813\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 </html>}
